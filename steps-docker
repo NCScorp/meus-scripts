@@ -1,0 +1,6 @@
+docker run --name bludit \
+    -p 8000:80 \
+    -v /home/nicoboco/vscode/bludit/content:/usr/share/nginx/html/bl-content \
+    -d bludit/docker:latest
+   
+Não esquecer que o content é chmod 777
